@@ -21,14 +21,16 @@ export const ELEWA_WEBSITE_ROUTES: Route[] = [
         (m) => m.FeaturesPagesAboutModule
       ),
   },
-
   {
-    path: 'about',
+    path: 'footer',
     loadChildren: () =>
-      import('@elewa-website/features/pages/about').then(
+      import('@elewa-website/libs/elements/footer/Elements-footer-module').then(
         (m) => m.FeaturesPagesAboutModule
       ),
   },
+
+ 
+  
 ];
 
 @NgModule({
