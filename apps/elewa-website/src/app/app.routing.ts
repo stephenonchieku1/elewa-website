@@ -21,13 +21,7 @@ export const ELEWA_WEBSITE_ROUTES: Route[] = [
         (m) => m.FeaturesPagesAboutModule
       ),
   },
-  {
-    path: 'footer',
-    loadChildren: () =>
-      import('@elewa-website/libs/elements/footer/Elements-footer-module').then(
-        (m) => m.FeaturesPagesAboutModule
-      ),
-  },
+
 
  
   

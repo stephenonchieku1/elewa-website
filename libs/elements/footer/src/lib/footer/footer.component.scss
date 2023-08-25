@@ -1,11 +1,11 @@
 .footer {
-    background-color: var(--elewa-group-website-color-primary);
+    background-color: var(--elewa-website-color-primary-black);
     padding-inline: .5rem;
     padding-top: 3rem;
     max-width: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    color: var(--elewa-group-website-color-white);
+    color: var(--elewa-website-color-primary-white);
   
     .headquarters,
     .contact,
@@ -38,7 +38,8 @@
   
       .logo {
         width: 10rem;
-        height: 1.5rem;
+        height: 1.5rem;        
+        filter: brightness(0) invert(1) grayscale(1) contrast(10000%);
       }
   
       .icons {
@@ -74,7 +75,7 @@
       .footer-navigations {
         margin-inline: 4rem;
         margin-top: 4rem;
-        border-top: 1px solid var(--elewa-group-website-color-white);
+        border-top: 1px solid var(--elewa-website-color-primary-white);
   
         h4 {
           margin-left: 0;
