@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--elewa-website-color-primary-black);
+    background-color: var(--elewa-website-background-footer-color);
     padding-inline: .5rem;
     padding-top: 3rem;
     max-width: 100%;
@@ -11,6 +11,10 @@
     .contact,
     .brands {
       display: none;
+    }
+    .footer-text{
+      font-family: var(--elewa-website-card-font-style);
+      font-weight: var(--elewa-group-website-font-weight-title);
     }
   
     .footer-navigations {
