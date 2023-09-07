@@ -8,6 +8,7 @@ import { MainPageModule } from '@elewa-website/elements/layout/pages/main-page';
 import { HomePageComponent } from './main/home/home-page.component';
 import { NewsSectionComponent } from './components/news-section/news-section.component';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
+import { HomeHeroSectionComponent } from './components/home-hero-section/home-hero-section.component';
 
 import { HomeRoutingModule } from './home.routing';
 
@@ -23,6 +24,7 @@ import { HomeRoutingModule } from './home.routing';
     HomePageComponent,
     NewsSectionComponent,
     ProjectsSectionComponent,
+    HomeHeroSectionComponent,
   ],
   exports: [HomePageComponent],
 })
